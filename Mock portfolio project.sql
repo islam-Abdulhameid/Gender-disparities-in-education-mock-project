@@ -300,18 +300,6 @@ ELSE Birth_Rate End as Birth_Rate
 from global_education
 )
 
---@block
--- the duplicate CountriesAndRegions collumns will be removed in power query
-
-Create view All_Data As(
-Select * from
- CompletionRates
- join CompletionRatesRatios on CompletionRatesRatios.CountriesAndRegions = CompletionRates.CountriesAndRegions
- join OutOfSchoolRates on OutOfSchoolRates.CountriesAndRegions = CompletionRates.CountriesAndRegions
- join OutOfSchoolRatesRatios on OutOfSchoolRatesRatios.CountriesAndRegions = CompletionRates.CountriesAndRegions
- join UnemploymentAndBirthrate on UnemploymentAndBirthrate.CountriesAndRegions = CompletionRates.CountriesAndRegions
-)
-
 
 
 
