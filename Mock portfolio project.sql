@@ -164,7 +164,7 @@ from global_education
 -- a value of less than 1 means that the non-completion rate for males is higher than females
 
 -- there are countries that contain 0 0 0 0 in its fields (which means no data),
--- those will be delt with in PowerQuery, dealing with them using SQL would require 4 case statements
+-- those will be delt with in PowerQuery, dealing with them using SQL would require 3 case statements
 
 SELECT 
 CountriesAndRegions,
@@ -182,7 +182,7 @@ From global_education
 -- a value less than 1 means there are more oosr female students than male
 
 -- there are countries that contain 0 0 0 0 in its fields (which means no data),
--- those will be delt with in PowerQuery, dealing with them using SQL would require 4 case statements
+-- those will be delt with in PowerQuery, dealing with them using SQL would require 3 case statements
 
 Select
 CountriesAndRegions,
