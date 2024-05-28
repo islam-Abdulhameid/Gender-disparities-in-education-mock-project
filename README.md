@@ -1,4 +1,4 @@
-This was written with the intentions of creating a dashboard in PowerBI, however the project was abandonded
+This was written with the intentions of creating a dashboard in PowerBI
 
 the main purpose of the SQl code is to clean and process (do calculations) on the data to make it ready for visualisation
 
